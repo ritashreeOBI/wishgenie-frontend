@@ -16,7 +16,7 @@ import { useGoogleLogin } from "@react-oauth/google";
 import {
   userLoginHandler,
   userVerifiedHandler,
-} from "@/redux/slice/user/userAuth";
+} from "@/store/slices/user/userAuth";
 import { useDispatch } from "react-redux";
 import Select from "react-select";
 import Modal from "../../shared-components/Modal/Modal";

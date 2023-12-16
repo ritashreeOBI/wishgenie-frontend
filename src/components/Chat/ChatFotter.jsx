@@ -9,7 +9,7 @@ import {
   displayPastedImage,
   hidePastedImage,
   showChatBox,
-} from "@/redux/slice/chatInteraction";
+} from "@/store/slices/chatInteraction";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -22,6 +22,7 @@ import { nanoid } from "nanoid";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
+import { generateUniqueID } from "@/utils/unique";
 
 function extractHttpFromString(str) {
   // Regular expression pattern to match the HTTP URL
@@ -91,43 +92,39 @@ function ChatFotter() {
       }
 
       try {
-        let chatUserId = localStorage.getItem("chatUserId");
+        let u_id = localStorage.getItem("u_id");
         if (loggedIn) {
-          chatUserId = user.email.toString();
+          user_id = user.email.toString();
         }
 
         let messageBody = {};
 
-        if (chatUserId === "empty" || chatUserId === null) {
-          chatUserId = nanoid(); //create a unique userId
-          // localStorage.setItem("chatUserId", btoa(chatUserId)); //encrypt
-          localStorage.setItem("chatUserId", chatUserId); //encrypt
+        if (u_id === "empty" || u_id === null) {
+          u_id = generateUniqueID(); //create a unique userId
+          // localStorage.setItem("u_id", btoa(u_id)); //encrypt
+          localStorage.setItem("u_id", u_id); //encrypt
         }
         messageBody.query = Query.message;
-        messageBody.user_id = chatUserId;
+        messageBody.user_id = u_id;
         const { data } = await axios.post(
           PREDICTION,
           messageBody
-          // { query: Query.message, user_id: chatUserId }
+          // { query: Query.message, u_id: u_id }
         );
 
-        
-
+  
         let messageResponse = data?.response?.response;
         let message = messageResponse;
-
-        // let message = getTextAfterSpecificText(
-        //   messageResponse,
-        //   "Final Answer:"
-        // );
 
         console.log("message", message);
         //const keywordResult = data?.response?.split(",");
         let keyword = data?.response?.query != "None" && data?.response?.query || "";
+        let customQuerySearch = data?.response?.query1 != "None" && data?.response?.query1 || ""
 
         if (keyword != "") {
           localStorage.setItem("cType", "text");
           localStorage.setItem("query", keyword);
+          localStorage.setItem('customQuery',customQuerySearch)
           dispatch(showChatBox());
           router.push("/products");
         }
@@ -275,7 +272,55 @@ function ChatFotter() {
 
   return (
     <>
-      <form
+    <form
+  onSubmit={(e) => {
+    e.preventDefault();
+    sendMessage();
+  }}
+  className="w-full flex items-start justify-between pl-4 pr-2 h-full py-2 gap-2"
+>
+  <div className="items-start flex w-[90%] gap-2 justify-between">
+    <textarea
+      onPaste={pasteHandler}
+      placeholder="What do you want from Genie?"
+      value={Query.message}
+      onChange={(e) =>
+        setQuery((pre) => {
+          return {
+            ...pre,
+            message: e.target.value,
+          };
+        })
+      }
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault(); // Prevent the form submission
+          sendMessage(); // Call the sendMessage function
+        }
+      }}
+      className="p-2 border-b border-[#d1d5db] h-[40px] text-sm bg-transparent focus:outline-none w-[95%]"
+    />
+
+    {/* ON MIC BUTTON CLICK */}
+    <BsMic
+      className={listening ? styles.animatedMic : styles.mic}
+      onClick={!listening ? SpeechRecognition.startListening : SpeechRecognition.stopListening}
+    />
+  </div>
+  <div className="flex items-center px-1 justify-center">
+    <div
+      className="flex items-center justify-center rounded-full text-white p-2 drop-3 cursor-pointer"
+      style={{
+        background: "linear-gradient(149deg, rgba(13,114,179,1) 11%, rgba(24,163,215,1) 97%)",
+      }}
+      onClick={sendMessage}
+    >
+      <IoSend className="text-xl" />
+    </div>
+  </div>
+</form>
+
+      {/* <form
         onSubmit={(e) => {
           e.preventDefault();
           sendMessage();
@@ -288,6 +333,7 @@ function ChatFotter() {
             onPaste={pasteHandler}
             placeholder="What do you want from Genie?"
             value={Query.message}
+
             onChange={(e) =>
               setQuery((pre) => {
                 return {
@@ -299,7 +345,7 @@ function ChatFotter() {
             className=" p-2 border-b border-[#d1d5db] h-[40px]  text-sm bg-transparent focus:outline-none w-[95%] "
           />
 
-          {/* ON MIC BUTTON CLICK */}
+          
           <BsMic
             className={listening ? styles.animatedMic : styles.mic}
             onClick={
@@ -321,7 +367,7 @@ function ChatFotter() {
             <IoSend className="text-xl " />
           </div>
         </div>{" "}
-      </form>
+      </form> */}
 
       {/* // container to display paste image */}
       <div

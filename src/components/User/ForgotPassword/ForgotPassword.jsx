@@ -12,7 +12,7 @@ import { useGoogleLogin } from "@react-oauth/google";
 
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { userLoginHandler } from "@/redux/slice/user/userAuth";
+import { userLoginHandler } from "@/store/slices/user/userAuth";
 import Loader from "../../shared-components/Loader/Loader";
 
 const ForgotPassword = () => {

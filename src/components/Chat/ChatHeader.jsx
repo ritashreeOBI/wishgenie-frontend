@@ -1,4 +1,4 @@
-import { hideChatBox } from "@/redux/slice/chatInteraction";
+import { hideChatBox } from "@/store/slices/chatInteraction";
 import { useRouter } from "next/router";
 import React,{useState} from "react";
 import { MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";

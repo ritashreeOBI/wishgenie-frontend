@@ -1,47 +1,79 @@
-import React, { Children } from 'react'
+import React, { Children, useState } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 import { BsStars } from "react-icons/bs";
 import { MdKeyboardArrowRight, MdStar } from 'react-icons/md';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { product } from '@/components/product';
+import { NavigationModal } from './NavigationModal';
+import { useDisclosure } from '@chakra-ui/react';
 
-function Card({ pro }) {
+function Card({ pro  ,setModalView }) {
 
     //console.log("🚀 ~ file: Card.jsx:10 ~ Card ~ pro:", pro)
-
+    
     const {thumbnail, image,brand,price,options,title,store_rating ,store_review ,productID, id ,rating, reviews, link,delivery, variant_count} =  pro.data || pro
 
     const dispatch = useDispatch()
 
+    console.log(pro)
+
+    // const encodedURL = encodeURI(pro?.link);
+
+    // const url = new URL(encodedURL);
+    // const domain = url.hostname
+   
+
+    const affliate = "www.amazon.com" 
+
     const router = useRouter()
 
-    const ViewHandler = (link, customize, productID) => {
-        if (!customize) {
-            window.open(link)
+    const ViewHandler = () => {
+        if (!options) {
+            if(link.includes('amazon.com')){
+                console.log("affliate")
+                setModalView(true)
+                setTimeout ( () =>{
+                    window.open(link)
+                    setModalView(false)
+                } , 4000) 
+                
+            }
+            else{
+                window.open(link)
+            }
+            
         } else {
-            router.push(`/products/${productID}`)
+            router.push(`/products/${id}`)
         }
     }
-
-   console.log(pro)
 
     return (
 
         <div
             className="image relative"
-            onClick={() => options ? router.push(`/products/${id || productID}`) : window.open(link) }
+            onClick={ViewHandler}
             //onClick={() => ViewHandler(pro.link, pro.customize, pro.product_id ? pro.product_id : pro.id)}
         >
+          
             {
                 options ?
                     <div className=' border bg-white absolute right-2 p-1 rounded-full top-2 flex items-center gap-1 pr-2  hover:scale-110 transition delay-100 duration-300 ease-in-out'
-                        onClick={() => vi}
+                        
                     >
                         <BsStars />
                         <span className='text-[8px]'>Customize </span>
                     </div>
-                    : ""
+                    : 
+                link.includes('amazon.com') ?
+                <div className=' border bg-[#0ea5e9] text-white absolute right-2 p-1 px-2 rounded-full top-2 flex items-center gap-1   hover:scale-110 transition delay-100 duration-300 ease-in-out'
+                >
+                    
+                    <span className='text-[10px]'>Affliate Partner </span>
+                </div>
+                :""
+
+                    
             }
             <div className='img-container flex justify-center items-center h-[300px] overflow-hidden '>
                 <Image

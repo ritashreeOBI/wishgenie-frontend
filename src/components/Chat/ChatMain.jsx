@@ -11,14 +11,14 @@ function ChatMain() {
     (state) => state.chatInteraction
   );
 
-  // console.log(messageQueue)
+  console.log(messageQueue)
 
   useEffect(() => {
     chatSectionRef.current.addEventListener("DOMNodeInserted", (event) => {
       const { currentTarget: target } = event;
       target.scroll({ top: target.scrollHeight, behavior: "smooth" });
     });
-  }, []);
+  }, [messageQueue]);
 
   return (
     <div className="px-6  overflow-y-scroll h-full" ref={chatSectionRef}>

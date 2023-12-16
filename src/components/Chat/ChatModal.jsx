@@ -1,7 +1,7 @@
 import "regenerator-runtime";
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { toggleModal } from "../../redux/slice/chatInteraction";
+import { toggleModal } from "../../store/slices/chatInteraction";
 import { BsFillMicFill } from "react-icons/bs";
 import styles from "./chatmodal.module.css";
 import SpeechRecognition, {

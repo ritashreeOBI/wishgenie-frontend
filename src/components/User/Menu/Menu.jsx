@@ -1,5 +1,5 @@
 import Modal from "@/components/shared-components/Modal/Modal";
-import { userLogoutHandler } from "@/redux/slice/user/userAuth";
+import { userLogoutHandler } from "@/store/slices/user/userAuth";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -43,17 +43,17 @@ const Menu = () => {
   //       <li
   //         key={"100"}
   //         className={`${
-  //           pathname.startsWith("/account/profile") ? "bg-[#1974BC]" : ""
+  //           pathname.startsWith("/account/profile") ? "bg-[#1974BC] rounded-xl text-white" : ""
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
-  //             pathname.startsWith("/account/profile") ? "font-bold" : ""
+  //           className={`text-black ${
+  //             pathname.startsWith("/account/profile") ? "font-bold text-white" : ""
   //           } `}
   //           href="/account/profile"
   //         >
   //           <div className="flex items-center">
-  //             <BsPersonFill className="text-white text-xl" />
+  //             <BsPersonFill className="text-black text-xl" />
   //             <span className="ml-3">Profile</span>
   //           </div>
   //         </Link>
@@ -65,16 +65,16 @@ const Menu = () => {
   //     content: (
   //       <li
   //         key={"101"}
-  //         className={`${pathname.startsWith("/admin") ? "bg-[#1974BC]" : ""}`}
+  //         className={`${pathname.startsWith("/admin") ? "bg-[#1974BC] rounded-xl text-white" : ""}`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/admin") ? "font-bold" : ""
   //           } `}
   //           href="/admin"
   //         >
   //           <div className="flex items-center">
-  //             <MdAdminPanelSettings className="text-white text-xl" />
+  //             <MdAdminPanelSettings className="text-black text-xl" />
   //             <span className="ml-3">Admin Panel</span>
   //           </div>
   //         </Link>
@@ -86,17 +86,17 @@ const Menu = () => {
   //     content: (
   //       <li
   //         className={`${
-  //           pathname.startsWith("/account/addresses") ? "bg-[#1974BC]" : ""
+  //           pathname.startsWith("/account/addresses") ? "bg-[#1974BC] rounded-xl text-white" : ""
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/addresses") ? "font-bold" : ""
   //           } `}
   //           href="/account/addresses"
   //         >
   //           <div className="flex items-center">
-  //             <MdLocationOn className="text-white text-xl" />
+  //             <MdLocationOn className="text-black text-xl" />
   //             <span className="ml-3">Addreses</span>
   //           </div>
   //         </Link>
@@ -109,17 +109,17 @@ const Menu = () => {
   //       <li
   //         key={"103"}
   //         className={`${
-  //           pathname.startsWith("/account/wishlist") ? "bg-[#1974BC]" : ""
+  //           pathname.startsWith("/account/wishlist") ? "bg-[#1974BC] rounded-xl text-white" : ""
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/wishlist") ? "font-bold" : ""
   //           } `}
   //           href="/account/wishlist"
   //         >
   //           <div className="flex items-center">
-  //             <MdOutlineFavoriteBorder className="text-white text-xl" />
+  //             <MdOutlineFavoriteBorder className="text-black text-xl" />
   //             <span className="ml-3">Wishlist</span>
   //           </div>
   //         </Link>
@@ -133,17 +133,17 @@ const Menu = () => {
   //       <li
   //         key={"104"}
   //         className={`${
-  //           pathname.startsWith("/account/orders") ? "bg-[#1974BC]" : ""
+  //           pathname.startsWith("/account/orders") ? "bg-[#1974BC] rounded-xl text-white" : ""
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/orders") ? "font-bold" : ""
   //           } `}
   //           href="/account/orders"
   //         >
   //           <div className="flex items-center">
-  //             <MdStarBorderPurple500 className="text-white text-xl" />
+  //             <MdStarBorderPurple500 className="text-black text-xl" />
   //             <span className="ml-3"> Orders</span>
   //           </div>
   //         </Link>
@@ -160,13 +160,13 @@ const Menu = () => {
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/track-shipment") ? "font-bold" : ""
   //           } `}
   //           href="/account/track-shipment"
   //         >
   //           <div className="flex items-center">
-  //             <MdOutlineLocalShipping className="text-white text-xl" />
+  //             <MdOutlineLocalShipping className="text-black text-xl" />
   //             <span className="ml-3">Track Shipment</span>
   //           </div>
   //         </Link>
@@ -183,13 +183,13 @@ const Menu = () => {
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/support") ? "font-bold" : ""
   //           } `}
   //           href="/account/support"
   //         >
   //           <div className="flex items-center">
-  //             <MdOutlineSupportAgent className="text-white text-xl" />
+  //             <MdOutlineSupportAgent className="text-black text-xl" />
   //             <span className="ml-3">Customer Support</span>
   //           </div>
   //         </Link>
@@ -208,7 +208,7 @@ const Menu = () => {
   //         }`}
   //       >
   //         <Link
-  //           className={`text-white ${
+  //           className={`text-black ${
   //             pathname.startsWith("/account/customize-products")
   //               ? "font-bold"
   //               : ""
@@ -216,7 +216,7 @@ const Menu = () => {
   //           href="/account/customize-products"
   //         >
   //           <div className="flex items-center">
-  //             <MdDashboardCustomize className="text-white text-xl" />
+  //             <MdDashboardCustomize className="text-black text-xl" />
   //             <span className="ml-3"> My Products</span>
   //           </div>
   //         </Link>
@@ -227,20 +227,20 @@ const Menu = () => {
 
   return (
     <>
-      <ul className="menu  bg-[#2AB1E4] w-60 rounded-2xl mr-8 max-h-[600px]">
+      <ul className="menu  gap-2 bg-white  text-sm w-64  mr-8 max-h-[600px] border-r pr-4">
         {/* /////////////////////// ADMIN TAB //////////////////// */}
         {user.roleType === ROLE.ADMIN ? (
           <li
-            className={`${pathname.startsWith("/admin") ? "bg-[#1974BC]" : ""}`}
+            className={`${pathname.startsWith("/admin") ? "bg-[#1974BC] rounded-xl text-white rounded-md " : ""}`}
           >
             <Link
-              className={`text-white ${
+              className={`text-black ${
                 pathname.startsWith("/admin") ? "font-bold" : ""
               } `}
               href="/admin"
             >
               <div className="flex items-center">
-                <MdAdminPanelSettings className="text-white text-xl" />
+                <MdAdminPanelSettings className=" text-xl" />
                 <span className="ml-3">Admin Panel</span>
               </div>
             </Link>
@@ -250,17 +250,17 @@ const Menu = () => {
         {/* /////////////////////// Profile //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/profile") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/profile") ? "bg-[#1974BC] rounded-xl text-white rounded-md " : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/profile") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/profile") ? "font-bold text-white" : ""
             } `}
             href="/account/profile"
           >
             <div className="flex items-center">
-              <BsPersonFill className="text-white text-xl" />
+              <BsPersonFill className=" text-xl" />
               <span className="ml-3">Profile</span>
             </div>
           </Link>
@@ -268,17 +268,17 @@ const Menu = () => {
         {/* /////////////////////// addresses //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/addresses") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/addresses") ? "bg-[#1974BC] rounded-xl text-white" : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/addresses") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/addresses") ? "font-bold text-white" : ""
             } `}
             href="/account/addresses"
           >
             <div className="flex items-center">
-              <MdLocationOn className="text-white text-xl" />
+              <MdLocationOn className=" text-xl" />
               <span className="ml-3">Addreses</span>
             </div>
           </Link>
@@ -286,17 +286,17 @@ const Menu = () => {
         {/* /////////////////////// Wishlist //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/wishlist") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/wishlist") ? "bg-[#1974BC] rounded-xl text-white" : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/wishlist") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/wishlist") ? "font-bold text-white" : ""
             } `}
             href="/account/wishlist"
           >
             <div className="flex items-center">
-              <MdOutlineFavoriteBorder className="text-white text-xl" />
+              <MdOutlineFavoriteBorder className=" text-xl" />
               <span className="ml-3">Wishlist</span>
             </div>
           </Link>
@@ -305,17 +305,17 @@ const Menu = () => {
         {/* /////////////////////// Orders //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/orders") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/orders") ? "bg-[#1974BC] rounded-xl text-white" : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/orders") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/orders") ? "font-bold text-white" : ""
             } `}
             href="/account/orders"
           >
             <div className="flex items-center">
-              <MdStarBorderPurple500 className="text-white text-xl" />
+              <MdStarBorderPurple500 className=" text-xl" />
               <span className="ml-3"> Orders</span>
             </div>
           </Link>
@@ -324,17 +324,17 @@ const Menu = () => {
         {/* /////////////////////// Track Shipment //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/track-shipment") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/track-shipment") ? "bg-[#1974BC] rounded-xl text-white" : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/track-shipment") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/track-shipment") ? "font-bold text-white" : ""
             } `}
             href="/account/track-shipment"
           >
             <div className="flex items-center">
-              <MdOutlineLocalShipping className="text-white text-xl" />
+              <MdOutlineLocalShipping className=" text-xl" />
               <span className="ml-3">Track Shipment</span>
             </div>
           </Link>
@@ -343,17 +343,17 @@ const Menu = () => {
         {/* /////////////////////// Customer Support //////////////////// */}
         <li
           className={`${
-            pathname.startsWith("/account/support") ? "bg-[#1974BC]" : ""
+            pathname.startsWith("/account/support") ? "bg-[#1974BC] rounded-xl text-white" : ""
           }`}
         >
           <Link
-            className={`text-white ${
-              pathname.startsWith("/account/support") ? "font-bold" : ""
+            className={`text-black ${
+              pathname.startsWith("/account/support") ? "font-bold text-white" : ""
             } `}
             href="/account/support"
           >
             <div className="flex items-center">
-              <MdOutlineSupportAgent className="text-white text-xl" />
+              <MdOutlineSupportAgent className=" text-xl" />
               <span className="ml-3">Customer Support</span>
             </div>
           </Link>
@@ -364,21 +364,21 @@ const Menu = () => {
           <li
             className={`${
               pathname.startsWith("/account/customize-products")
-                ? "bg-[#1974BC]"
+                ? "bg-[#1974BC] rounded-xl text-white"
                 : ""
             }`}
           >
             <Link
-              className={`text-white ${
+              className={`text-black ${
                 pathname.startsWith("/account/customize-products")
-                  ? "font-bold"
+                  ? "font-bold text-white"
                   : ""
               } `}
               href="/account/customize-products"
             >
               <div className="flex items-center">
-                <MdDashboardCustomize className="text-white text-xl" />
-                <span className="ml-3"> My Products</span>
+                <MdDashboardCustomize className=" text-xl" />
+                <span className="ml-3"> Draft</span>
               </div>
             </Link>
           </li>
@@ -387,26 +387,26 @@ const Menu = () => {
         {/* /////////////////////// Logout TAB //////////////////// */}
         <li onClick={openModal}>
           <div className="flex items-center">
-            <MdLogout className="text-white text-xl" />
-            <span className="text-white "> Logout</span>
+            <MdLogout className="text-black text-xl" />
+            <span className="text-black "> Logout</span>
           </div>
         </li>
       </ul>
 
       {/* /////////////////////// Logout modal //////////////////// */}
       <Modal isOpen={isOpen} onClose={closeModal} logoutHandler={logoutHandler}>
-        <h2 className="font-bold text-xl">Are you sure?</h2>
-        <p className="text-slate-600 my-4">Do you want to logout!</p>
+       <h2 className="font-bold text-black text-xl text-center">Are you sure?</h2>
+        <p className="text-slate-600 my-4 text-center">Do you want to logout!</p>
         <div className="flex justify-start mt-8">
           <button
-            className="px-4 py-2 border border-cyan-500 text-cyan-500 hover:cursor-pointer rounded-md min-w-[100px]"
+            className="px-4 py-2 grow border border-cyan-500 text-cyan-500 hover:cursor-pointer rounded-md min-w-[100px]"
             onClick={closeModal}
           >
             No
           </button>{" "}
           &nbsp;
           <button
-            className="px-4 py-2 bg-cyan-500 text-white hover:cursor-pointer rounded-md min-w-[140px]"
+            className="px-4 py-2  grow bg-cyan-500 text-black hover:cursor-pointer rounded-md min-w-[140px]"
             onClick={logoutHandler}
           >
             Yes

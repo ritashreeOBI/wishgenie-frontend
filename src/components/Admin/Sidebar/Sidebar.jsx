@@ -4,12 +4,16 @@ import { RiDashboardFill, RiProductHuntFill } from "react-icons/ri";
 import { AiFillIdcard } from "react-icons/ai";
 import { IoMdSettings } from "react-icons/io";
 import { FaUserCircle, FaUsers, FaUsersCog } from "react-icons/fa";
-import { MdContentPaste } from "react-icons/md";
-import { BsFillFileBarGraphFill } from "react-icons/bs";
+import { MdContentPaste, MdOutlinePermContactCalendar } from "react-icons/md";
+import { BsFillFileBarGraphFill, BsImages } from "react-icons/bs";
 import { TbAffiliateFilled } from "react-icons/tb";
+import {GoProjectRoadmap} from 'react-icons/go'
 import { GrAd } from "react-icons/gr";
 import { useRouter } from "next/router";
+import { title } from "process";
+import { NavItems } from "./navlist";
 const ICON_COLOR = "#2197ca";
+
 const Sidebar = () => {
   const router = useRouter();
 
@@ -20,92 +24,63 @@ const Sidebar = () => {
     }
   }, []);
 
-  const NavItems = [
-    {
-      id: 101,
-      title: "Dashboard",
-    },
-    {
-      id: 102,
-      title: "Affiliate",
-    },
-    // {
-    //   id: 103,
-    //   title: "Sales",
-    // },
-    {
-      id: 104,
-      title: "Products",
-    },
-    {
-      id: 106,
-      title: "CMS",
-    },
-    {
-      id: 107,
-      title: "Customers",
-    },
-    {
-      id: 108,
-      title: "Users",
-    },
-    {
-      id: 109,
-      title: "Roles",
-    },
-    // {
-    //   id: 110,
-    //   title: "Settings",
-    // },
-  ];
+ 
 
   return (
-    <div className="bg-[#FFFFFF] w-[300px] h-screen mt-4 mr-4 rounded-lg">
-      {/* <div className="flex py-6  relative">
-        <img src="/logo.png" alt="logo" className="w-24 h-auto ml-16" />
-        <div className="absolute bottom-[22px] left-[55%] font-bold text-slate-600">
-          | ADMIN
+    <div className="bg-[#FFFFFF]   h-screen shadow-md   ">
+      <div className="flex p-4 pl-6 gap-4 items-center border-b  ">
+       <img src="/logo.png" alt="logo" className="w-12 h-auto " />
+        <div className=" flex flex-col gap">
+          <p className="text-xl font-bold text-sky-600">Wish Genie</p> 
+          <p className="text-xs opacity-40 text-center">Super Admin</p>
         </div>
       </div>
-      <hr /> */}
+      
 
       {/* //navbar */}
-      <div className="">
-        {NavItems.map((item) => {
-          let active = router.pathname
-            .toLowerCase()
-            .includes(item.title.toLowerCase());
+      <div className=" mt-6 flex  flex-col pl-4 ">
+        {NavItems.map((item , idx) => {
+          let active = router.pathname === item?.link;
 
-          if (item.title === "Dashboard") {
-            return <Dashboard key={item.id} active={active} />;
-          }
-          if (item.title === "Affiliate") {
-            return <Affiliate key={item.id} active={active} />;
-          }
-          if (item.title === "Products") {
-            return <Products key={item.id} active={active} />;
-          }
-          if (item.title === "Settings") {
-            return <Settings key={item.id} active={active} />;
-          }
-          if (item.title === "Profile") {
-            return <Profile key={item.id} active={active} />;
-          }
-          if (item.title === "CMS") {
-            return <CMS key={item.id} active={active} />;
-          }
-          if (item.title === "Users") {
-            return <Users key={item.id} active={active} />;
-          }
-          if (item.title === "Customers") {
-            return <Customers key={item.id} active={active} />;
-          }
-          if (item.title === "Roles") {
-            return <Roles key={item.id} active={active} />;
-          }
-          if (item.title === "Sales") {
-            return <Sales key={item.id} active={active} />;
-          }
+            return (
+              <>
+              {
+              ! item.label ?
+              
+              <Link href={item?.link} key={idx}>
+              <div
+                className={`flex items-center  p-2  border-l px-5   py-3 ml-3 rounded-sm hover:cursor-pointer 
+                ${active ? "font-semibold border-[#2197ca]" : ""}`}
+                style={{
+                  //background:active ? '#e0f2fe' : 'white' , 
+                  //borderLeft: active ? ` ${ICON_COLOR}` : "unset",
+                }}
+              >
+             
+                <p className={
+                    active
+                      ? `text-admin-primary font-bold text-xl`
+                      : ` font-bold text-xl opacity-70`
+                  }>{item.icon}</p>
+                <p
+                  className={
+                    active
+                      ? // ? "ml-4 text-lg text-admin-dark-text"
+                        "ml-4 text-md  text-[14px] text-admin-primary"
+                      : "ml-4 text-[14px] opacity-60"
+                  }
+                >
+                 {item?.title}
+                </p>
+              </div>
+             </Link>
+             :
+               <p className="text-sm border-b-2 border-[#0284c7] font-bold rounded-md  w-fit pb-1 opacity-80 my-4">{item.label}</p>
+               
+              }
+            </>
+            )
+
         })}
       </div>
     </div>
@@ -114,314 +89,3 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-const Dashboard = ({ active }) => {
-  return (
-    <Link href="/admin/dashboard" key={101}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-        ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <RiDashboardFill
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-bold text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Dashboard
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Products = ({ active }) => {
-  return (
-    <Link href="/admin/products" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-               ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <RiProductHuntFill
-          className={
-            active
-              ? `text-admin-primary font-bold text-4xl`
-              : `text-admin-light-text font-normal text-4xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Products
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Settings = ({ active }) => {
-  return (
-    <Link href="/admin/settings" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-             ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <IoMdSettings
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Settings
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Profile = ({ active }) => {
-  return (
-    <Link href="/admin/profile" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer ${
-          active ? "font-semibold" : ""
-        }`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <FaUserCircle
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Profile
-        </p>
-      </div>
-    </Link>
-  );
-};
-const CMS = ({ active }) => {
-  return (
-    <Link href="/admin/cms" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-              ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <MdContentPaste
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          CMS
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Users = ({ active }) => {
-  return (
-    <Link href="/admin/users" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-              ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <FaUsersCog
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Users
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Customers = ({ active }) => {
-  return (
-    <Link href="/admin/customers" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-        ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <FaUsers
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Customers
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Roles = ({ active }) => {
-  return (
-    <Link href="/admin/roles" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-         ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <AiFillIdcard
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl rounded-md`
-              : `text-admin-light-text font-normal text-3xl  rounded-md`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Roles
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Sales = ({ active }) => {
-  return (
-    <Link href="/admin/sales" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6  rounded-sm hover:cursor-pointer 
-               ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <BsFillFileBarGraphFill
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Sales
-        </p>
-      </div>
-    </Link>
-  );
-};
-const Affiliate = ({ active }) => {
-  return (
-    <Link href="/admin/affiliate" key={102}>
-      <div
-        className={`flex items-center my-1  p-2 pl-6   rounded-sm hover:cursor-pointer 
-       ${active ? "font-semibold" : ""}`}
-        style={{
-          borderRight: active ? `4px solid ${ICON_COLOR}` : "unset",
-        }}
-      >
-        <TbAffiliateFilled
-          className={
-            active
-              ? `text-admin-primary font-bold text-3xl`
-              : `text-admin-light-text font-normal text-3xl`
-          }
-        />
-        <p
-          className={
-            active
-              ? // ? "ml-4 text-lg text-admin-dark-text"
-                "ml-4 text-lg text-admin-primary"
-              : "ml-4 text-lg text-admin-light-text"
-          }
-        >
-          Affiliate
-        </p>
-      </div>
-    </Link>
-  );
-};

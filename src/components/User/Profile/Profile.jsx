@@ -3,7 +3,7 @@ import {
   asyncVerifyOtp,
   userLogoutHandler,
   userVerifiedHandler,
-} from "@/redux/slice/user/userAuth";
+} from "@/store/slices/user/userAuth";
 import Router, { useRouter } from "next/router";
 import React, { useState, useRef, use } from "react";
 import { useDispatch, useSelector } from "react-redux";

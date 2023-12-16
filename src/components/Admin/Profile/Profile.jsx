@@ -1,5 +1,5 @@
-import { logoutHandler } from "@/redux/slice/admin/adminSlice";
-import { userLogoutHandler } from "@/redux/slice/user/userAuth";
+import { logoutHandler } from "@/store/slices/admin/adminSlice";
+import { userLogoutHandler } from "@/store/slices/user/userAuth";
 import Router, { useRouter } from "next/router";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";

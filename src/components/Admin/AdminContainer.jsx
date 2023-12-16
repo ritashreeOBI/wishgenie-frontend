@@ -5,6 +5,8 @@ import Sidebar from "./Sidebar/Sidebar";
 import Breadcrumbs from "./Breadcrumbs/Breadcrumbs";
 import { useSelector } from "react-redux";
 import Modal from "../shared-components/Modal/Modal";
+import Header from "../header/Header";
+import AdminHeader from "./Header/AdminHeader";
 
 const AdminContainer = (props) => {
   const { loggedIn, isLoading, user } = useSelector(
@@ -31,8 +33,8 @@ const AdminContainer = (props) => {
   //   );
   // }
   return (
-    // <div className="min-h-screen bg-[#F5F8FE] p-0 m-0">
-    <div className="min-h-screen p-0 m-0 pt-28">
+  //<div className="min-h-screen bg-[#F5F8FE] p-0 m-0">
+    <div className="min-h-screen  p-0 m-0">
       {isLoading ? (
         <Modal isOpen={isLoading}>
           <div className="flex justify-center  p-6">
@@ -40,10 +42,18 @@ const AdminContainer = (props) => {
           </div>
         </Modal>
       ) : loggedIn ? (
-        <div className="flex  mb-16   mx-0 sm:mx-4 md:mx-8 ">
-          <Sidebar />
+        <div className="grid grid-cols-10">
+          <div className="col-span-2  relative">
 
-          <div className="w-full mt-4">{props.children}</div>
+          <Sidebar />
+          </div>
+
+          <div className=" col-span-8 h-screen overflow-scroll">
+            <AdminHeader/>
+            <div className=" p-8  ">
+              {props.children}
+            </div>
+          </div>
         </div>
       ) : (
         // <div className="flex w-full">

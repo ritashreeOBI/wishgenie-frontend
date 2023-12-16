@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import Router, { useRouter } from "next/router";
 import React, { useState, useRef, use } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -24,11 +25,13 @@ const Wishlist = () => {
   }
 
   return (
-    <div className="bg-slate-50 p-4 shadow  rounded-3xl min-h-[300px]">
+    <div className="  min-h-[300px]">
       <div className="flex justify-between ">
         <h3 className="font-bold">Wishlist</h3>
       </div>
       <hr className="my-2" />
+      <Text textAlign={'center'} my={8}>No wishlisted items</Text>
+      {/* // */}
     </div>
   );
 };

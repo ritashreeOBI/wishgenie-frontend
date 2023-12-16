@@ -1,4 +1,4 @@
-import { userLogoutHandler } from '@/redux/slice/user/userAuth';
+import { userLogoutHandler } from '@/store/slices/user/userAuth';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useRef } from 'react'

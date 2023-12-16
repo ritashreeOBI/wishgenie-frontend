@@ -3,15 +3,17 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
-import { useGoogleLogin } from "@react-oauth/google";
+import { GoogleLogin, useGoogleLogin } from "@react-oauth/google";
 
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { userLoginHandler } from "@/redux/slice/user/userAuth";
+import { userLoginHandler } from "@/store/slices/user/userAuth";
 import Loader from "../../shared-components/Loader/Loader";
 import FacebookAuth from "react-facebook-auth";
 import { MdFacebook } from "react-icons/md";
+//import { jwtDecode } from "jwt-decode";
 // import TiSocialFacebookCircular from 'react-icons/lib/ti/social-facebook-circular';
+
 const SigninForm = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");
@@ -19,6 +21,7 @@ const SigninForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
+  
 
   const changeHandler = (e) => {
     const { name, value } = e.target;
@@ -51,13 +54,13 @@ const SigninForm = () => {
         toast.success(message, { autoClose: 1000 });
         dispatch(userLoginHandler({ user, token }));
         setTimeout(() => {
-          router.push("/");
-        }, 1500);
+          router.back();
+        }, 1200);
         // setIsSubmitting(false);
       })
       .catch((err) => {
         console.log("err", err);
-        toast.error(err.response.data.message, {
+        toast.error(err?.response?.data.message, {
           position: toast.POSITION.TOP_RIGHT,
         });
         setIsSubmitting(false);
@@ -100,6 +103,61 @@ const SigninForm = () => {
       toast.error(err.message);
     },
   });
+
+
+  // const  onSuccessHandler = async (credentialResponse) => {
+  //   const token =   credentialResponse?.credential
+  //   console.log(token)
+   
+  //     try {
+
+  //       const decodedValue = jwtDecode(credentialResponse.credential)
+  //       console.log(decodedValue)
+        
+
+  //       const userDetail = {
+  //           email:decodedValue.email ,
+  //           name:decodedValue.email,
+  //           profile:decodedValue.picture,
+  //           givenName:decodedValue.given_name,
+  //           familyName:decodedValue.family_name
+  //       } 
+  //       setLoading(true);
+  //       // const response = await axios({
+  //       //   method: "POST",
+  //       //   url: Google_Register,
+  //       //   data: { token },
+  //       // });
+  //       // console.log("response", response);
+     
+       
+  //       localStorage.setItem('User' , JSON.stringify(userDetail))
+  //      // localStorage.setItem('JWT' ,credentialResponse.credential)
+  //      // const { message, user, token } = response.data;
+  //       dispatch(userLoginHandler({ userDetail,token }));
+  //       setLoading(false);
+  //       toast.success("Signup Sucessfully", { autoClose: 1000 });
+  //       router.back(-1)
+  //     } catch (err) {
+  //       if (err.response) {
+  //         toast.error(err.response.data.message, {
+  //           position: toast.POSITION.TOP_RIGHT,
+  //         });
+  //       } else {
+  //         toast.error(err.message, {
+  //           position: toast.POSITION.TOP_RIGHT,
+  //         });
+  //       }
+  //       setLoading(false);
+  //     }
+    
+   
+  // }
+
+  // const  onErrorHandler =  (err) => {
+  //   console.log("error", err);
+  //   toast.error(err.message);
+  // }
   //############### Google Login #############
   const facebookSignUp = async (accessToken) => {
     try {
@@ -217,12 +275,19 @@ const SigninForm = () => {
             <span className="text-gray-400">---------</span>
           </div>
           <div className="flex justify-evenly">
-            <img
+             <img
               src="/google.png"
               className="h-[50px] w-[auto] hover:cursor-pointer"
               alt="google"
               onClick={() => googleSignUp()}
-            />{" "}
+            />
+
+                      {/* <GoogleLogin
+                            onSuccess={onSuccessHandler}
+                            onError={onErrorHandler}
+                            useOneTap
+                        /> */}
+            {" "}
             <FacebookAuth
               appId="718972476663047"
               callback={(response) => {

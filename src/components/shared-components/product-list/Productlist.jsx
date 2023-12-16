@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../card/Card";
 
-function Productlist({ list, isloading }) {
+function Productlist({ list, isloading , setModalView }) {
 
   const [count, setCount] = useState(2);
 
@@ -29,13 +29,13 @@ function Productlist({ list, isloading }) {
       {list
         // ?.slice(0, count)
         //.filter((data) => data?.price?.value || data.price)
-        .map((pro, idx) => {
+        ?.map((pro, idx) => {
           return (
             <div
-              className={`flex flex-col gap-2 transition delay-150 duration-300 ease-in-out cursor-pointer`}
+              className={`flex flex-col gap-2  transition delay-150 duration-300 ease-in-out cursor-pointer`}
               key={idx}
             >
-              <Card pro={pro} />
+              <Card pro={pro} setModalView={setModalView} />
             </div>
           );
         })}

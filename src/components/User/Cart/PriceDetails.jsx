@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useRouter } from "next/router";
 const PriceDetails = ({ data }) => {
   let productCount = 0;
   let price = 0;
@@ -8,6 +8,7 @@ const PriceDetails = ({ data }) => {
     productCount = productCount + product.qty;
     price = price + product.qty * product.price;
   });
+  const router = useRouter();
   return (
     <div className="w-full max-w-sm rounded-md shadow-md bg-white sticky top-[20px]">
       <p className="px-6 py-3 text-slate-500 border-b font-semibold">
@@ -27,7 +28,11 @@ const PriceDetails = ({ data }) => {
           <p>${deliveryFee + price}</p>
         </div>
       </div>
-      <div className="mx-8  px-16 py-3 bg-amber-400 rounded-md text-base text-center  text-white hover:cursor-pointer">
+      <div
+        className="mx-8  px-16 py-3 bg-amber-400 rounded-md text-base text-center  text-white hover:cursor-pointer"
+        onClick={() => router.push("/checkout")}
+        // onClick={() => router.push("/cart/payment")}
+      >
         Proceed to Buy
       </div>
       <br />

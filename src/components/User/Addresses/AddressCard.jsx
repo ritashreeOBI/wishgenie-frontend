@@ -4,7 +4,7 @@ import {
   getUserAddresses,
   setDetaultAddress,
   setSelectedAddress,
-} from "@/redux/slice/user/userAddressSlice";
+} from "@/store/slices/user/userAddressSlice";
 import { unwrapResult } from "@reduxjs/toolkit";
 import React, { useState } from "react";
 import { MdDeleteForever, MdEdit } from "react-icons/md";
@@ -31,7 +31,7 @@ const AddressCard = ({ address }) => {
   return (
     <div
       className={`border rounded-xl p-3 my-4 shadow-sm w-auto ${
-        address.defaultAddress ? "border-admin-primary border-2" : ""
+        address.defaultAddress ? "border-admin-primary border-1" : ""
       }`}
     >
       <Modal isOpen={showModal} onClose={closeConfirmModal}>
@@ -58,16 +58,14 @@ const AddressCard = ({ address }) => {
       </Modal>
       <div className="flex justify-between items-center">
         <div className="flex items-center">
-          <p className="font-semibold text-slate-600 capitalize text-sm">
-            {address.type}{" "}
-          </p>{" "}
+          <p className="font-semibold  capitalize">{address.name} </p>{" "}
           {address.defaultAddress ? (
             <p className="bg-admin-primary text-white text-[10px] ml-12 px-1 py-[2px] rounded-sm">
               Default
             </p>
           ) : (
             <button
-              className="ml-12 text-blue-400 text-sm hover:font-semibold"
+              className="ml-12 text-blue-400 text-xs hover:font-semibold"
               onClick={setDefaultHandler}
             >
               Set Default
@@ -90,10 +88,17 @@ const AddressCard = ({ address }) => {
           </p>
         </div>
       </div>
-      <p className="font-semibold  capitalize">{address.name} </p>{" "}
+      {/* <p className="font-semibold  capitalize">{address.name} </p>{" "} */}
+      <p className="font-medium  capitalize">{address.company} </p>{" "}
+      <p className="font-medium  capitalize">{address.phoneNo} </p>{" "}
+      {address.company ? (
+        <p className="font-medium  capitalize">{address.email} </p>
+      ) : null}
       <p className="my-1">
-        {address.street},&nbsp;{address.city},&nbsp;{address.state}&nbsp;-{" "}
-        {address.zipcode}
+        {address.addressLineOne},{" "}
+        {address.addressLineTwo ? address.addressLineTwo + " ," : null}&nbsp;
+        {address.state},&nbsp;{address.country}
+        &nbsp;- {address.zipcode}
       </p>
       <p>{address.phone}</p>
       <p></p>

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="bg-white p-6  w-full flex flex-col gap-4 bg-[#f1fcff]  ">
+    <div className="bg-white p-6  w-full flex flex-col gap-4 bg-[#f1fcff] border-t  ">
       {/* <section className="flex flex-wrap gap-4">
         <div className="flex flex-row grow gap-4 flex-wrap px-4">
           {footerMenu.map((links, idx) => {
@@ -42,6 +42,12 @@ function Footer() {
         </div>
       </section> */}
       {/* <div className="divider" /> */}
+      <section className="flex flex-col gap-2 items-center">
+        <Link href="/affiliates" className="text-center">
+         Our Affiliate Partnerships
+        </Link>
+        <p className="text-xs opacity-50">As an Affiliate Partner, we earn from qualifying purchases.</p>
+      </section>
       <section className="flex flex-wrap justify-between text-xs gap-4">
         <div className="flex flex-wrap  gap-4">
           
@@ -57,11 +63,11 @@ function Footer() {
             <Link href="/">Support</Link>{" "}
           </li>
         </div>
-        <div>
+        {/* <div>
           <p>
-            All rights reserved 2022-23 <strong>WishGenie is an affiliate of Amazon.Com</strong>
+          All rights reserved 2022-23 <strong> WishGenie is an affiliate of Amazon.Com</strong>
           </p>
-        </div>
+        </div> */}
       </section>
     </div>
   );

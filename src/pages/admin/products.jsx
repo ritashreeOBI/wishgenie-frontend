@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import AdminContainer from "../../components/Admin/AdminContainer";
+import ProductList from "@/components/Admin/Products/ProductList";
+
 const index = () => {
   const [adminLogin, setAdminLogin] = useState(false);
   const { isLogin } = useSelector((state) => state.adminSlice);
@@ -15,7 +17,7 @@ const index = () => {
 
   return(
     <AdminContainer>
-      admin
+      <ProductList />
     </AdminContainer>
   ) 
 };

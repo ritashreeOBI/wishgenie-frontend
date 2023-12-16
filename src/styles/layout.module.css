@@ -1,58 +1,58 @@
 .chatOpenRight {
-  animation: fadeRight 1s ease 0s 1 normal forwards;
-  /* animation: fadeRight 1s linear; */
-}
-.chatCloseRight {
-  animation: fadeLeft 1s ease 0s 1 normal forwards;
-  /* animation: fadeRight 1s linear; */
-}
-
-.showBox {
-  animation: fadeIn 1s ease 0s 1 normal forwards;
-}
-.hideBox {
-  animation: fadeOut 1s ease 0s 1 normal forwards;
-}
-
-@keyframes fadeLeft {
-  0% {
-    opacity: 1;
-    transform: rotateY(0);
-    transform-origin: left;
+    animation: fadeRight 1s ease 0s 1 normal forwards;
+    /* animation: fadeRight 1s linear; */
   }
-
-  100% {
-    opacity: 0;
-    transform: rotateY(100deg);
-    transform-origin: left;
+  .chatCloseRight {
+    animation: fadeLeft 1s ease 0s 1 normal forwards;
+    /* animation: fadeRight 1s linear; */
   }
-}
-@keyframes fadeRight {
-  0% {
-    opacity: 0;
-    transform: rotateY(100deg);
-    transform-origin: left;
+  
+  .showBox {
+    animation: fadeIn 1s ease 0s 1 normal forwards;
   }
-
-  100% {
-    opacity: 1;
-    transform: rotateY(0);
-    transform-origin: left;
+  .hideBox {
+    animation: fadeOut 1s ease 0s 1 normal forwards;
   }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+  
+  @keyframes fadeLeft {
+    0% {
+      opacity: 1;
+      transform: rotateY(0);
+      transform-origin: left;
+    }
+  
+    100% {
+      opacity: 0;
+      transform: rotateY(100deg);
+      transform-origin: left;
+    }
   }
-  to {
-    opacity: 1;
+  @keyframes fadeRight {
+    0% {
+      opacity: 0;
+      transform: rotateY(100deg);
+      transform-origin: left;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: rotateY(0);
+      transform-origin: left;
+    }
   }
-}
-@keyframes fadeOut {
-  from {
-    opacity: 1;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
-  to {
-    opacity: 0;
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
   }
-}

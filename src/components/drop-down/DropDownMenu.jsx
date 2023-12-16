@@ -5,7 +5,7 @@ import { printFullApi } from '@/api/Api';
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useDispatch } from "react-redux";
-import {setProductCategory} from "@/redux/slice/ProductSlice";
+import {setProductCategory} from "@/store/slices/ProductSlice";
 
 // function DropDownMenu() {
 
@@ -130,7 +130,7 @@ function DropDownMenu() {
                 className={`flex  items-center gap-2  p-3 px-4  ${showdropdown ? "bg-white " : ""} rounded-t-md `}
                 onClick={() => setShowdropdown(pre => !pre)}
             >
-                <p className='font-[400] text-sm'>Create Your Wish </p> <HiOutlineChevronDown />
+                <p className='font-[400] text-sm font-bold'>Create Your Wish </p> <HiOutlineChevronDown />
             </div>
             {
                 showdropdown ?

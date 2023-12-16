@@ -18,6 +18,23 @@ html {
   -moz-animation: line 1s linear infinite alternate;
   animation: line 1s linear infinite alternate;
 }
+
+.text-circle {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-circle-content {
+  transform: rotate(90deg);
+}
 @-webkit-keyframes line {
   0% {
     background-color: rgb(30, 61, 119);
@@ -336,8 +353,6 @@ button {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.2s ease-in-out;
   background-color: #fff;
-}
-.product {
 }
 
 .product::-webkit-scrollbar {

@@ -7,17 +7,20 @@ import Productlist from "@/components/shared-components/product-list/Productlist
 import { useDispatch, useSelector, useStore } from "react-redux";
 import CardSkeleton from "@/components/shared-components/skeleton/CardSkeleton";
 import {
+  ChatActionResult,
   changeChatMessageing,
   hideChatBox,
   showChatBox,
-} from "@/redux/slice/chatInteraction";
+} from "@/store/slices/chatInteraction";
 import { toast } from "react-toastify";
 import { SHOPPING_RESULT, optionAPI, printFullApi } from "@/api/Api";
+import { NavigationModal } from "@/components/shared-components/card/NavigationModal";
 
 function Products() {
 
   const productListRef = useRef();
   const dispatch = useDispatch();
+  let u_id ; 
 
   const {
     keyword,
@@ -30,12 +33,13 @@ function Products() {
   const [isloading, setLoading] = useState(false);
   const [apiStatus, setApistatus] = useState(true);
   const [errorResponse, setErrorResponse] = useState("");
-
+  const [modalView , setModalView] = useState(false)
   useEffect(() => {
     AOS.init();
   }, []);
 
   useEffect(() => {
+    u_id = localStorage.getItem("u_id");
     const elem = document.getElementById("productContainer");
     elem.addEventListener(
       "scroll",
@@ -59,39 +63,76 @@ function Products() {
         const chatType = localStorage.getItem("cType");
         if (chatType === "image") {
           console.log("chatType", chatType);
+          const query = localStorage.getItem("query")
+          const options = [query]
           const apiResponse = await axios.post(optionAPI, {
-            object: localStorage.getItem("query"),
+            selected_objects:options ,
             image_id: localStorage.getItem("uploadedID"),
+            user_id: localStorage.getItem('u_id')
           });
           console.log("apiResponse", apiResponse);
-          const { response, status, shopping_results , custom_results } = apiResponse.data;
+         const { response, status, shopping_results , custom_results,filtered_objects } = apiResponse.data;
           console.log("response", response);
-          const custom_products = custom_results?.main_data
+
+          const custom_products = custom_results?.main_data || []
+          console.log(filtered_objects[query].visual_matches)
+
           setProducts(
-            shopping_results ? [ ...custom_products,...shopping_results ]: response.visual_matches
+            shopping_results ? [ ...custom_products,...shopping_results ]:
+            filtered_objects  ? 
+             filtered_objects[query].visual_matches
+            :
+             response?.visual_matches
           );
 
           setApistatus(status);
           if (status === false) {
-            setErrorResponse(response);
+
+            console.log("fale")
+            const newMessageObj = {
+              message:response,
+              user: false,
+              api: "",
+              keyword:'',
+              // keyword: { query: keywordResult[keywordResult.length - 1] },
+              action: false,
+              features:'',
+              featureList: '',
+            };
+            dispatch(ChatActionResult(newMessageObj));
+            //setErrorResponse(response);
           }
           setLoading(false);
-        } else {
-          const  {data } = await axios.post(SHOPPING_RESULT, {
+        } 
+        else {
+          const {data } = await axios.post(SHOPPING_RESULT, {
             query: localStorage.getItem("query"),
+            //query1:localStorage.getItem('customQuery') || ""
           });
           const { response, status } = data;
          
           console.log(data?.shopping_results)
           console.log(data)
-          const custom_products = data?.custom_results?.main_data
-          const shopping_results = data?.shopping_results
+          const custom_products = data?.custom_results?.main_data || []
+          const shopping_results = data?.shopping_results || []
           setProducts(
-            data?.shopping_results ? [...custom_products ,...shopping_results] : data.response.visual_matches
+            data?.shopping_results ? [...custom_products , ...shopping_results] : data.response.visual_matches
           );
           setApistatus(status);
           if (status === false) {
-            setErrorResponse(response);
+            console.log("cancelled")
+            const newMessageObj = {
+              message:response,
+              user: false,
+              api: "",
+              keyword:'',
+              // keyword: { query: keywordResult[keywordResult.length - 1] },
+              action: false,
+              features:'',
+              featureList: '',
+            };
+            dispatch(ChatActionResult(newMessageObj));
+            //setErrorResponse(response);
           }
           setLoading(false);
         }
@@ -115,6 +156,7 @@ function Products() {
             const { data } = await axios.post(api, {
               query: query,
               image_id: localStorage.getItem("uploadedID"),
+              user_id:u_id
             });
             const { response, status } = data;
             console.log("data", data);
@@ -123,6 +165,17 @@ function Products() {
               setProducts(response.shopping_results || response.visual_matches);
             } else {
               setErrorResponse(response);
+              const newMessageObj = {
+                message:response,
+                user: false,
+                api: "",
+                keyword:'',
+                // keyword: { query: keywordResult[keywordResult.length - 1] },
+                action: false,
+                features:'',
+                featureList: '',
+              };
+              dispatch(ChatActionResult(newMessageObj));
             }
             setLoading(false);
           }
@@ -151,6 +204,7 @@ function Products() {
   }, [keyword]);
 
   const getCustomProducts = async () => {
+    setLoading(true);
     axios.get(`${printFullApi}/products`, {
       params: {
         "category_id": category
@@ -159,6 +213,7 @@ function Products() {
       .then(response => {
         // Handle the success response here
         console.log('Response:', response.data);
+        setLoading(false);
         if (response.data.code === 200) {
           const productsWithPrice = response.data.result.map(product => {
             return {
@@ -174,6 +229,7 @@ function Products() {
       .catch(error => {
         // Handle any errors that occurred during the POST request
         console.error('Error:', error);
+        setLoading(false);
       });
   }
 
@@ -194,8 +250,9 @@ function Products() {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="flex  relative top-28 "
+      className="flex  relative top-28 p-2"
     >
+      { }
       {isloading ? (
         <div className="productList flex grid grid-cols-3 px-12 gap-12 grow pb-60">
           <div className="dum" />
@@ -205,6 +262,8 @@ function Products() {
           <CardSkeleton />
         </div>
       ) : (
+        <>
+       
         <div
           className=" product  h-[1100px] overflow-scroll mb-32 pb-10 "
           id="productContainer"
@@ -216,9 +275,10 @@ function Products() {
           >
             <div className="dum" />
             <div className="dum" />
-            <Productlist list={productsList} />
+            <Productlist list={productsList} setModalView={setModalView} />
           </div>
         </div>
+        </>
       )}
     </div>
   );

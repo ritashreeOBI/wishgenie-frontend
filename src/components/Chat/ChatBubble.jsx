@@ -9,7 +9,7 @@ import {
   pendingStop,
   setKeyword,
   updateProductList,
-} from "@/redux/slice/chatInteraction";
+} from "@/store/slices/chatInteraction";
 import axios from "axios";
 import { optionAPI } from "@/api/Api";
 
@@ -105,14 +105,31 @@ function ChatBubble({ data, user, action, features, featureList, upload }) {
           )}
         </div>
 
-        {upload ? (
+        { 
+        upload ? (
           <div className="p-2 px-4 text-xs text-white rounded-md bg-sky-400 w-fit flex gap-2 items-center">
             <RiFileUploadLine className="text-lg" />
             Image Uploaded Successfully
           </div>
-        ) : (
+        ) : 
+        upload && upload?.error 
+        ?
+        <>
+        <div className="p-2 px-4 text-xs text-white rounded-md bg-sky-400 w-fit flex gap-2 items-center">
+        <RiFileUploadLine className="text-lg" />
+        Please verify the uploaded image, it must not contain any nudity. If you want to challange the image please upload the image.
+
+        </div>
+        <div >
+          <button>Upload</button>
+          <button>Cancel</button>
+        </div>
+        </>
+        :
+        (
           ""
-        )}
+        )
+      }
       </div>
 
       {features ? (

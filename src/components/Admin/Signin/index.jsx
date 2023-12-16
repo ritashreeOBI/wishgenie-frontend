@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { loginHandler } from "@/redux/slice/admin/adminSlice";
+import { loginHandler } from "@/store/slices/admin/adminSlice";
 const SigninForm = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");

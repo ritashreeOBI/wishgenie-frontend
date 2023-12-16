@@ -5,7 +5,7 @@ import AddressCard from "./AddressCard";
 import {
   getUserAddresses,
   setSelectedAddress,
-} from "@/redux/slice/user/userAddressSlice";
+} from "@/store/slices/user/userAddressSlice";
 import AddAddress from "./AddAddress";
 import EditAddress from "./EditAddress";
 
@@ -36,20 +36,10 @@ const Addresses = () => {
   }
 
   return (
-    <div className="bg-slate-50 p-4 shadow  rounded-3xl min-h-[300px]">
-      <div className="flex justify-between ">
+    <div className="   min-h-[300px]">
+      <div className="flex justify-between items-center ">
         <h3 className="font-bold">My Addresses </h3>
-      </div>
-      <hr className="my-2" />
-      <div>
-        {!addresses || addresses.length === 0 ? <AddAddress /> : null}
-
-        {showAddressForm ? (
-          <AddAddress
-            showForm={showAddressForm}
-            onFormClose={() => setShowAddressForm(false)}
-          />
-        ) : addresses && addresses.length > 0 ? (
+       
           <div
             className="border rounded-xl p-3 my-4 shadow-sm w-auto text-blue-500 hover:cursor-pointer"
             onClick={() => {
@@ -61,15 +51,28 @@ const Addresses = () => {
           >
             Add A New Address
           </div>
-        ) : null}
+        
+      </div>
+        {/* <hr className="my-2" /> */}
+      <div>
+      {addresses.map((address) => (
+          <AddressCard key={address.addressId} address={address} />
+        ))}
+       
+
+        {showAddressForm ? (
+          <AddAddress
+            showForm={showAddressForm}
+            onFormClose={() => setShowAddressForm(false)}
+          />
+        ) : 
+         null}
 
         {selectedAddress.addressId && (
           <EditAddress onFormClose={() => dispatch(setSelectedAddress({}))} />
         )}
 
-        {addresses.map((address) => (
-          <AddressCard key={address.addressId} address={address} />
-        ))}
+        
       </div>
     </div>
   );

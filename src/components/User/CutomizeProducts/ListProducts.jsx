@@ -1,4 +1,5 @@
 import { GET_PRODUCTS } from "@/api/Api";
+import { Text } from "@chakra-ui/react";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
@@ -59,6 +60,7 @@ const ListProducts = () => {
           </div>
         </div>
       ))}
+       <Text textAlign={'center'} width={'full'} my={8}>No Draft found</Text>
     </div>
   );
 };

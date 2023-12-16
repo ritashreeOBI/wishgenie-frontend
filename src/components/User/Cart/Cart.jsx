@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PriceDetails from "./PriceDetails";
+import { sentenceCase } from "sentence-case";
+import { GET_CART_PRODUCTS } from "@/api/Api";
+import axios from "axios";
 
 const CARTDATA = [
   {
@@ -65,7 +68,7 @@ const CARTDATA = [
 ];
 
 const Cart = () => {
-  const [cartData, setCartData] = React.useState(CARTDATA);
+  const [cartData, setCartData] = useState([]);
   const increaseCartItem = (id) => {
     const updatedData = cartData.map((item) => {
       if (item.id === id) {
@@ -94,68 +97,91 @@ const Cart = () => {
     }
   };
 
+  const getCartProducts = async () =>{
+    try {
+      const customerID = localStorage.getItem('u_id')
+      const {data}  = await axios.get(`${GET_CART_PRODUCTS}?custommerID=${customerID}`)
+      console.log(data)
+      setCartData(data?.result)
+    } catch (error) {
+      console.log(error?.message)
+    }
+  }
+  useEffect(() =>{
+      getCartProducts()
+  },[])
+
   return (
     <div className="grid grid-cols-4 gap-4 ">
       <div className="col-span-3 bg-white rounded-md ">
         <div className="flex border-b py-3 text-2xl text-slate-700 font-semibold pl-4">
-          Shopping Cart
+          <p className="text-center ">Your Cart</p>
         </div>
-        <div className="px-8 py-2">
+
+        <div className="grid grid-cols-10  font-bold opacity-60 text-sm py-4 px-10 text-center">
+          <p className="col-span-6 w-full text-start">Product Detail</p>
+          <p className="col-span-1 text-start ">Price</p>
+          <p className="col-span-2">Quantity</p>
+          <p className="col-span-1 text-start">Total Price</p>
+        </div>
+        <div className="px-8 py-2 w-full flex flex-col  gap-2 ">
           {cartData.map((item) => (
-            <div key={item.id} className="flex border-b py-2 my-1">
-              <div className="h-32 w-36">
+            <div
+              key={item.id}
+              className=" w-full items-center border p-2 rounded-md  grid grid-cols-10 gap-4 py-2 "
+            >
+              <div className=" col-span-2">
                 <img
-                  src={item.image}
-                  alt={item.name}
+                  src={item.thumbnails}
+                  alt={'product'}
                   className="w-full h-full rounded-md"
                 />
               </div>
 
-              <div className="ml-3 w-full ">
-                <p className="text-[20px] text-slate-700 capitalize mb-1">
-                  {item.name}
+              <div className="col-span-4 spacing-4 flex flex-col gap-4">
+                <p className="  text-xl font-bold text-slate-700 capitalize mb-1">
+                  {sentenceCase(item?.title)}
                 </p>
-                <div className="flex mb-3">
-                  <span className="mt-[1px]">$</span>
-                  <p className="font-semibold text-slate-800 text-[19px] capitalize">
-                    {item.price}
-                  </p>
+                <div className="  text-sm  spacing-4">
+                  <div className="flex">
+                    <span className="opacity-50">Size:</span> &nbsp;
+                    <p className="font-semibold text-slate-800 opacity-80 capitalize">
+                      {item?.productSize}
+                    </p>
+                  </div>{" "}
                 </div>
-
-                <div className="flex ">
-                  <div className="w-6/12">
-                    <div className="flex">
-                      <span className="">Size:</span> &nbsp;
-                      <p className="font-semibold text-slate-800  capitalize">
-                        {item.size}
-                      </p>
-                    </div>{" "}
-                    <div className="flex">
-                      <span className="">Color:</span> &nbsp;
-                      <p className="font-semibold text-slate-800  capitalize">
-                        {item.color}
-                      </p>
-                    </div>
+                <p className="text-sm">Delivery Charge- ${10}</p>
+                 <div className="w-10 h-10 rounded-md" style={{background:item?.colorCode}}>
                   </div>
+              </div>
+              <div className="flex grid-span-1 mb-3 text-sm ">
+                <span className="">$</span>
+                <p className="font-semibold text-slate-800  capitalize">
+                  {parseInt(item?.sellingPrice)}
+                </p>
+              </div>
 
-                  <div>
-                    <div className="flex items-center my-2">
-                      <span
-                        className="border border-red-300 rounded-full py-[3px]  px-2 hover:cursor-pointer hover:bg-red-200 hover:font-semibold "
-                        onClick={() => decreaseCartItem(item.id, item.qty)}
-                      >
-                        -
-                      </span>
-                      <span className="w-12 text-center">{item.qty}</span>
-                      <span
-                        className="border border-green-300 rounded-full px-2 py-[3px] hover:cursor-pointer hover:bg-green-200 hover:font-semibold"
-                        onClick={() => increaseCartItem(item.id)}
-                      >
-                        +
-                      </span>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-span-2  flex items-center ">
+                <span
+                  className="border-2 text-xl font-bold border-red-300 px-2  rounded-full py-0 hover:cursor-pointer hover:bg-red-200 hover:font-semibold "
+                  onClick={() => decreaseCartItem(item.id, item.qty)}
+                >
+                  -
+                </span>
+                <span className="w-12 text-center">{item.qty}</span>
+                <span
+                  className="border-2 border-green-300 text-xl font-bold rounded-full px-2 py-[0 hover:cursor-pointer hover:bg-green-200 hover:font-semibold"
+                  onClick={() => increaseCartItem(item.id)}
+                >
+                  +
+                </span>
+              </div>
+
+              <div className="flex grid-span-1 mb-3 text-sm ">
+                <span className="">$</span>
+                <p className="font-semibold text-slate-800  capitalize">
+                  {item?.sellingPrice * item.qty}
+                </p>
               </div>
             </div>
           ))}
