@@ -1,0 +1,4088 @@
+{
+    "code": 200,
+    "result": {
+        "version": 100,
+        "variant_mapping": [
+            {
+                "variant_id": 5530,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5531,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5532,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5533,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5534,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5535,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5536,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5537,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149880
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149893
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3618
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149919
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149906
+                    }
+                ]
+            },
+            {
+                "variant_id": 5594,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5595,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5596,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5597,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5598,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5599,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5600,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5601,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149888
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149901
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3623
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149927
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149914
+                    }
+                ]
+            },
+            {
+                "variant_id": 5586,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5587,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5588,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5589,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5590,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5591,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149886
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149899
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3622
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149925
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149912
+                    }
+                ]
+            },
+            {
+                "variant_id": 5554,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5555,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5556,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5557,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5558,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5559,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 186845
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 186846
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3619
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 186848
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 186847
+                    }
+                ]
+            },
+            {
+                "variant_id": 5538,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5539,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5540,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5541,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5542,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5543,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5544,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 5545,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149889
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149902
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 23154
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149928
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149915
+                    }
+                ]
+            },
+            {
+                "variant_id": 10806,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10807,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10808,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10809,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10810,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10811,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10812,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 10813,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149881
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149894
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 17573
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149920
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149907
+                    }
+                ]
+            },
+            {
+                "variant_id": 16850,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 16851,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 16852,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 16853,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 16854,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 16855,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 182055
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 182056
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 181930
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 182058
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 182057
+                    }
+                ]
+            },
+            {
+                "variant_id": 5562,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 5563,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 5564,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 5565,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 5566,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 5567,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149882
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149895
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 45157
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149921
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149908
+                    }
+                ]
+            },
+            {
+                "variant_id": 17411,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 17410,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 17409,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 17408,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 17407,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 17406,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 195947
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 195948
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 195822
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 195950
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 195949
+                    }
+                ]
+            },
+            {
+                "variant_id": 5546,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 5547,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 5548,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 5549,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 5550,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 5551,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149883
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149896
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3621
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149922
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149909
+                    }
+                ]
+            },
+            {
+                "variant_id": 12989,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12990,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12991,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12992,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12993,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12994,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12995,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 12996,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149887
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149900
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73662
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149926
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149913
+                    }
+                ]
+            },
+            {
+                "variant_id": 5610,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5611,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5612,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5613,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5614,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5615,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5616,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 5617,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149891
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149904
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3625
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149930
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149917
+                    }
+                ]
+            },
+            {
+                "variant_id": 10841,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10842,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10843,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10844,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10845,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10846,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10847,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 10848,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149884
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149897
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19204
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149923
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149910
+                    }
+                ]
+            },
+            {
+                "variant_id": 12997,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 12998,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 12999,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 13000,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 13001,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 13002,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149890
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149903
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 73451
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149929
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149916
+                    }
+                ]
+            },
+            {
+                "variant_id": 10849,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10850,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10851,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10852,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10853,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10854,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10855,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 10856,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149885
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149898
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 19205
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149924
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149911
+                    }
+                ]
+            },
+            {
+                "variant_id": 5522,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5523,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5524,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5525,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5526,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5527,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5528,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            },
+            {
+                "variant_id": 5529,
+                "templates": [
+                    {
+                        "placement": "front",
+                        "template_id": 149892
+                    },
+                    {
+                        "placement": "back",
+                        "template_id": 149905
+                    },
+                    {
+                        "placement": "label_outside",
+                        "template_id": 3626
+                    },
+                    {
+                        "placement": "sleeve_right",
+                        "template_id": 149931
+                    },
+                    {
+                        "placement": "sleeve_left",
+                        "template_id": 149918
+                    }
+                ]
+            }
+        ],
+        "templates": [
+            {
+                "template_id": 149880,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#0b0b0b",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149893,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#0b0b0b",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3618,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#0b0b0b",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149919,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#0b0b0b",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149906,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#0b0b0b",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149888,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#131928",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149901,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#131928",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3623,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#15162b",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149927,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#131928",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149914,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#131928",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149886,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47171c",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149899,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47171c",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3622,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47171c",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149925,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47171c",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149912,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47171c",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 186845,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#35241b",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 186846,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#35241b",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3619,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#271e14",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 186848,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#35241b",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 186847,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#35241b",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149889,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#da0a1a",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149902,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#da0a1a",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 23154,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#da0a1a",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149928,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#da0a1a",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149915,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#da0a1a",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149881,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_dark-heather.jpg?v=1692703516",
+                "background_color": "#47484d",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149894,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_dark-heather.jpg?v=1692703516",
+                "background_color": "#47484d",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 17573,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#47484d",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149920,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_dark-heather.jpg?v=1692703516",
+                "background_color": "#47484d",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149907,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_dark-heather.jpg?v=1692703516",
+                "background_color": "#47484d",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 182055,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1D50A4",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 182056,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1D50A4",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 181930,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1D50A4",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 182058,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1D50A4",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 182057,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1D50A4",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149882,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#395d82",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149895,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#395d82",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 45157,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#395d82",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149921,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#395d82",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149908,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#395d82",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 195947,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18000_heather-sport-dark-navy.jpg?v=1692703516",
+                "background_color": "#515A6E",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 195948,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18000_heather-sport-dark-navy.jpg?v=1692703516",
+                "background_color": "#515A6E",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 195822,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#515A6E",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 195950,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18000_heather-sport-dark-navy.jpg?v=1692703516",
+                "background_color": "#515A6E",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 195949,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18000_heather-sport-dark-navy.jpg?v=1692703516",
+                "background_color": "#515A6E",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149883,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1d9345",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149896,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1d9345",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3621,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1d9345",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149922,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1d9345",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149909,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#1d9345",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149887,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#7e8560",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149900,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#7e8560",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 73662,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#7e8560",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149926,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#7e8560",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149913,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#7e8560",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149891,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_sport-grey.jpg?v=1692703516",
+                "background_color": "#9b969c",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149904,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_sport-grey.jpg?v=1692703516",
+                "background_color": "#9b969c",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3625,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#9b969c",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149930,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_sport-grey.jpg?v=1692703516",
+                "background_color": "#9b969c",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149917,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": "https://files.cdn.printful.com/m/g18500/medium/bgImages/01_gildan18500_sport-grey.jpg?v=1692703516",
+                "background_color": "#9b969c",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149884,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#a1c5e1",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149897,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#a1c5e1",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 19204,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#a1c5e1",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149923,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#a1c5e1",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149910,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#a1c5e1",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149890,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#e7d3b3",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149903,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#e7d3b3",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 73451,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#e7d3b3",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149929,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#e7d3b3",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149916,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#e7d3b3",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149885,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#f3d4e3",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149898,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#f3d4e3",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 19205,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#f3d4e3",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149924,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#f3d4e3",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149911,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#f3d4e3",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149892,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/front/05_gildan18500_ghost_front_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#ffffff",
+                "printfile_id": 139,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1136,
+                "print_area_height": 1136,
+                "print_area_top": 651,
+                "print_area_left": 927,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149905,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/back/05_gildan18500_ghost_back_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#ffffff",
+                "printfile_id": 1,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 1095,
+                "print_area_height": 1460,
+                "print_area_top": 493,
+                "print_area_left": 919,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 3626,
+                "image_url": "https://files.cdn.printful.com/m/templates/medium/outside_label_3x3.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#ffffff",
+                "printfile_id": 90,
+                "template_width": 560,
+                "template_height": 560,
+                "print_area_width": 288,
+                "print_area_height": 288,
+                "print_area_top": 187,
+                "print_area_left": 137,
+                "is_template_on_front": false,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149931,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/right/05_gildan18500_ghost_right_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#ffffff",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 277,
+                "print_area_height": 1104,
+                "print_area_top": 1065,
+                "print_area_left": 1318,
+                "is_template_on_front": true,
+                "orientation": "any"
+            },
+            {
+                "template_id": 149918,
+                "image_url": "https://files.cdn.printful.com/m/g18500/medium/ghost/left/05_gildan18500_ghost_left_base_whitebg.png?v=1692703516",
+                "background_url": null,
+                "background_color": "#ffffff",
+                "printfile_id": 147,
+                "template_width": 3000,
+                "template_height": 3000,
+                "print_area_width": 278,
+                "print_area_height": 1105,
+                "print_area_top": 1054,
+                "print_area_left": 1409,
+                "is_template_on_front": true,
+                "orientation": "any"
+            }
+        ],
+        "min_dpi": 75,
+        "conflicting_placements": [
+            {
+                "placement": "front",
+                "conflicts": [
+                    "front_large",
+                    "front_dtf",
+                    "chest_left_dtf"
+                ]
+            },
+            {
+                "placement": "back",
+                "conflicts": [
+                    "label_outside",
+                    "back_dtf"
+                ]
+            },
+            {
+                "placement": "label_outside",
+                "conflicts": [
+                    "back",
+                    "back_dtf",
+                    "label_inside",
+                    "label_inside_dtf"
+                ]
+            }
+        ]
+    },
+    "extra": []
+}
