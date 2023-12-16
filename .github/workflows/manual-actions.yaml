@@ -34,3 +34,8 @@ jobs:
             docker stop wg-frontend-containe-manual || true
             docker rm wg-frontend-containe-manual || true
             docker run -d --name  wg-frontend-containe-manual -p 3000:3000 wishgenie:ui   
+
+name: Upload coverage reports to Codecov
+  uses: codecov/codecov-action@v3
+  env:
+    CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
